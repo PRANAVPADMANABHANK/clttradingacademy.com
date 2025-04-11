@@ -1103,7 +1103,7 @@ mark {
   color: var(--bs-heading-color);
   font-family: var(--bs-heading-font-family);
   background: -webkit-gradient(linear, left top, right top, from(var(--bs-primary)), to(var(--bs-secondary)));
-  background: linear-gradient(90deg, var(--bs-primary), var(--bs-secondary));
+  background: linear-gradient(90deg, #dc3545, #bc6a72);
 }
 .ico_btn_outline:before {
   inset: 1px;
@@ -1114,7 +1114,7 @@ mark {
   -webkit-transition: var(--bs-transition);
   transition: var(--bs-transition);
   background: -webkit-gradient(linear, left top, right top, from(rgba(var(--bs-secondary-rgb), 0.96)), color-stop(24%, var(--bs-dark)));
-  background: linear-gradient(90deg, rgba(var(--bs-secondary-rgb), 0.96) 0%, var(--bs-dark) 24%);
+  background: linear-gradient(90deg, #070710 0%, var(--bs-dark) 24%);
 }
 .ico_btn_outline:hover {
   color: var(--bs-white);
@@ -1143,7 +1143,7 @@ mark {
   -webkit-box-shadow: 0px -8px 18px -16px rgba(var(--bs-primary-rgb), 1);
           box-shadow: 0px -8px 18px -16px rgba(var(--bs-primary-rgb), 1);
   background: -webkit-gradient(linear, left top, right top, from(var(--bs-primary)), to(var(--bs-secondary)));
-  background: linear-gradient(90deg, var(--bs-primary), var(--bs-secondary));
+  background: linear-gradient(90deg, #dc3545, #bc6a72);
 }
 .ico_creative_btn .btn_wrapper {
   z-index: 1;
@@ -1173,7 +1173,7 @@ mark {
   border-radius: 50%;
   -webkit-transition: var(--bs-transition);
   transition: var(--bs-transition);
-  background-image: radial-gradient(#FF3BD4, #7130C3, transparent);
+  background-image: radial-gradient(#070710, #dc3545, transparent);
 }
 .ico_creative_btn [class*=btn_icon_] {
   width: 66px;
@@ -1241,7 +1241,7 @@ mark {
   -webkit-transform: translateY(-6px);
           transform: translateY(-6px);
   -webkit-box-shadow: 0px 24px 26px -20px rgba(var(--bs-primary-rgb), 0.6);
-          box-shadow: 0px 24px 26px -20px rgba(var(--bs-primary-rgb), 0.6);
+          box-shadow: 0px 24px 26px -20px #f8f9fa;
   background: -webkit-gradient(linear, left bottom, left top, from(var(--bs-primary)), to(var(--bs-secondary)));
   background: linear-gradient(0deg, var(--bs-primary), var(--bs-secondary));
 }
@@ -1773,7 +1773,7 @@ input[type=search]::-webkit-search-results-decoration {
   position: absolute;
   padding: 17px 22px;
   color: var(--bs-white);
-  background-color: var(--bs-border-color);
+  background-color: #070710;
   font-family: var(--bs-heading-font-family);
 }
 .ico_newsletter_form .submit_btn:hover {
@@ -1933,7 +1933,7 @@ input[type=search]::-webkit-search-results-decoration {
   overflow: hidden;
   border-radius: 6px;
   position: relative;
-  background: linear-gradient(60deg, #DD00AC, #7130C3, #DD00AC);
+  background: linear-gradient(60deg, #dc3545, #dc3545, #d4d5f1);
 }
 .social_block.style_2 a:before {
   inset: 1px;
@@ -2102,8 +2102,8 @@ input[type=search]::-webkit-search-results-decoration {
   color: var(--bs-white);
 }
 .tab_block .nav .nav-link.active {
-  color: var(--bs-white);
-  background-color: var(--bs-border-color);
+  color: #dc3545;
+  /* background-color: var(--bs-border-color); */
 }
 
 /* 2.11 - Tab - End
@@ -3170,7 +3170,7 @@ input[type=search]::-webkit-search-results-decoration {
   pointer-events: auto;
   position: relative;
   border-radius: 10px;
-  background-color: rgba(47, 51, 109, 0.8);
+  background-color: #fff;
 }
 .ico_partner_logo:before {
   inset: 0;
@@ -3181,7 +3181,7 @@ input[type=search]::-webkit-search-results-decoration {
   border-radius: inherit;
   -webkit-transition: var(--bs-transition);
   transition: var(--bs-transition);
-  background-image: linear-gradient(120deg, #944FEB 0%, #DB5D41 37%, #944FEB 100%);
+  background-image: linear-gradient(120deg, #f8f9fa 0%, #dc3545 37%, #dc3545 100%);
 }
 .ico_partner_logo:after {
   left: -1px;
@@ -4600,7 +4600,7 @@ input[type=search]::-webkit-search-results-decoration {
   position: absolute;
   font-family: "Font Awesome 5 Pro";
   background: -webkit-gradient(linear, left bottom, left top, from(#4E47A6), to(#101122));
-  background: linear-gradient(0deg, #4E47A6, #101122);
+  background: linear-gradient(0deg, #dc3545, #101122);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -4612,7 +4612,7 @@ input[type=search]::-webkit-search-results-decoration {
   bottom: -30px;
   position: absolute;
   background: -webkit-gradient(linear, left bottom, left top, from(#101122), to(#4E47A6));
-  background: linear-gradient(0deg, #101122, #4E47A6);
+  background: linear-gradient(0deg, #101122, #dc3545);
 }
 .about_ico_block .title_text {
   line-height: 1;
@@ -4710,7 +4710,7 @@ input[type=search]::-webkit-search-results-decoration {
   border-color: var(--bs-border-color);
 }
 .whitepaper_image_wrap:before {
-  inset: 0;
+  /* inset: 0; */
   z-index: -1;
   content: "";
   opacity: 0.7;
@@ -4968,7 +4968,7 @@ input[type=search]::-webkit-search-results-decoration {
   -webkit-filter: blur(22px);
           filter: blur(22px);
   inset: 20px 0 -8px 0;
-  background: linear-gradient(145deg, #FC6500, #7064E9, #FC6500);
+  background: linear-gradient(145deg, #dc3545, #f8f9fa, #dc3545);
 }
 .ico_problem_solution_table .column_wrapper {
   z-index: 1;
@@ -4991,7 +4991,7 @@ input[type=search]::-webkit-search-results-decoration {
           filter: blur(30px);
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  background-image: radial-gradient(rgba(var(--bs-border-color-translucent), 0.7), var(--bs-light));
+  background-image: radial-gradient(#dc3545, var(--bs-light));
 }
 .ico_problem_solution_table .column_wrapper:after {
   left: 0;
@@ -5003,7 +5003,7 @@ input[type=search]::-webkit-search-results-decoration {
   -webkit-filter: blur(45px);
           filter: blur(45px);
   position: absolute;
-  background-image: linear-gradient(45deg, #FC6500, #7064E9);
+  background-image: linear-gradient(45deg, #dc3545, #dc3545);
 }
 .ico_problem_solution_table .column_wrapper > * {
   padding: 50px;
@@ -5896,11 +5896,11 @@ input[type=search]::-webkit-search-results-decoration {
   --bs-heading-color: #CCCEEF;
   --bs-light: #0F1021;
   --bs-light-rgb: 15, 16, 33;
-  --bs-primary: #FF3BD4;
+  --bs-primary: #ff3b3be0;
   --bs-primary-rgb: 255, 59, 212;
-  --bs-secondary: #7130C3;
+  --bs-secondary: #dc3545;
   --bs-secondary-rgb: 113, 48, 195;
-  --bs-border-color: #2F336D;
+  --bs-border-color: #fff;
   --bs-border-color-translucent: 47, 51, 109;
   --bs-dark: #070710;
   --bs-dark-rgb: 7, 7, 16;
