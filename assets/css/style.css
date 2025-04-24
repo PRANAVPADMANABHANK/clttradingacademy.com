@@ -1103,7 +1103,7 @@ mark {
   color: var(--bs-heading-color);
   font-family: var(--bs-heading-font-family);
   background: -webkit-gradient(linear, left top, right top, from(var(--bs-primary)), to(var(--bs-secondary)));
-  background: linear-gradient(90deg, #dc3545, #bc6a72);
+  background: linear-gradient(90deg, #e90700, #bc6a72);
 }
 .ico_btn_outline:before {
   inset: 1px;
@@ -3045,7 +3045,7 @@ input[type=search]::-webkit-search-results-decoration {
 /* 2.20 - Team - Start
 ================================================== */
 .ico_team_block {
-  height: 336px;
+  /* height: 336px; */
   text-align: center;
   -webkit-perspective: 1000px;
           perspective: 1000px;
@@ -3056,7 +3056,7 @@ input[type=search]::-webkit-search-results-decoration {
   position: relative;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
-  background-color: var(--bs-dark);
+  /* background-color: var(--bs-dark); */
   -webkit-transition: 0.6s cubic-bezier(0.33, 1, 0.68, 1);
   transition: 0.6s cubic-bezier(0.33, 1, 0.68, 1);
 }
@@ -3067,7 +3067,7 @@ input[type=search]::-webkit-search-results-decoration {
 .ico_team_block .front_side_content,
 .ico_team_block .back_side_content {
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
   padding: 40px;
   position: absolute;
   border-radius: 15px;
@@ -3094,7 +3094,7 @@ input[type=search]::-webkit-search-results-decoration {
   position: absolute;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  background-image: radial-gradient(#4E47A6, transparent);
+  background-image: radial-gradient(#e90700, transparent);
 }
 .ico_team_block .team_avatar {
   padding: 6px;
@@ -3273,22 +3273,22 @@ input[type=search]::-webkit-search-results-decoration {
   border-bottom: 1px solid var(--bs-border-color);
 }
 .tokenomics_block > li:nth-child(1) .percent {
-  background-color: #FC1CCF;
+  background-color: #e90700;
 }
 .tokenomics_block > li:nth-child(2) .percent {
-  background-color: #DF5E08;
+  background-color: #e90700;
 }
 .tokenomics_block > li:nth-child(3) .percent {
-  background-color: #07C87F;
+  background-color: #e90700;
 }
 .tokenomics_block > li:nth-child(4) .percent {
-  background-color: #49B7F7;
+  background-color: #e90700;
 }
 .tokenomics_block > li:nth-child(5) .percent {
-  background-color: #DABA5E;
+  background-color: #e90700;
 }
 .tokenomics_block > li:nth-child(6) .percent {
-  background-color: #FF0054;
+  background-color: #e90700;
 }
 .tokenomics_block .percent {
   width: 78px;
@@ -4197,8 +4197,8 @@ input[type=search]::-webkit-search-results-decoration {
   background-position: center top;
 }
 .ico_hero_section .hero_title {
-  font-size: 70px;
-  line-height: 80px;
+  font-size: 103px;
+  line-height: 95px;
   margin-bottom: 46px;
 }
 .ico_hero_section .ico_countdown_progress_box {
@@ -4242,7 +4242,7 @@ input[type=search]::-webkit-search-results-decoration {
 }
 
 .ico_hero_section + .partner_section {
-  margin-top: -81px;
+  margin-top: 53px;
 }
 
 .memecoin_hero_section {
@@ -4600,7 +4600,7 @@ input[type=search]::-webkit-search-results-decoration {
   position: absolute;
   font-family: "Font Awesome 5 Pro";
   background: -webkit-gradient(linear, left bottom, left top, from(#4E47A6), to(#101122));
-  background: linear-gradient(0deg, #dc3545, #101122);
+  background: linear-gradient(0deg, #e90700, #101122);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -4612,7 +4612,7 @@ input[type=search]::-webkit-search-results-decoration {
   bottom: -30px;
   position: absolute;
   background: -webkit-gradient(linear, left bottom, left top, from(#101122), to(#4E47A6));
-  background: linear-gradient(0deg, #101122, #dc3545);
+  background: linear-gradient(0deg, #101122, #e90700);
 }
 .about_ico_block .title_text {
   line-height: 1;
@@ -4646,8 +4646,8 @@ input[type=search]::-webkit-search-results-decoration {
           animation-delay: 0.2s;
 }
 .ico_about_image .coin_image {
-  left: 0;
-  right: 0;
+  left: -257px;
+  right: -184px;
   bottom: 12px;
   z-index: 1;
   position: absolute;
@@ -5889,14 +5889,14 @@ input[type=search]::-webkit-search-results-decoration {
 .index_ico {
   --bs-body-font-family: "DM Sans", serif;
   --bs-heading-font-family: "Roobert PRO Bold";
-  --bs-body-bg: #070710;
+  --bs-body-bg: #000;
   --bs-body-bg-rgb: 7, 7, 16;
   --bs-body-color: #D4D5F1;
   --bs-body-color-rgb: 212, 213, 241;
   --bs-heading-color: #CCCEEF;
-  --bs-light: #0F1021;
+  --bs-light: #000;
   --bs-light-rgb: 15, 16, 33;
-  --bs-primary: #ff3b3be0;
+  --bs-primary: #e90700;
   --bs-primary-rgb: 255, 59, 212;
   --bs-secondary: #dc3545;
   --bs-secondary-rgb: 113, 48, 195;
@@ -8037,3 +8037,30 @@ Responsive For Mobile & Tablet Devices
 }
 /* Media Screen 320px - End
 ================================================== */
+
+
+
+.ico_hero_section {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+
+.ico_hero_section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/cltbgimg.png');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5; /* Adjust as needed */
+  z-index: 1;
+}
+
+.ico_hero_section .container {
+  position: relative;
+  z-index: 2; /* Keeps your content above the background */
+}
